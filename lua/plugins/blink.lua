@@ -1,12 +1,11 @@
 return {
-  "blink-shell/blink.cmp",
+  "Saghen/blink.cmp",
   config = function()
     local blink = require("blink.cmp")
     blink.setup({
-        
-        keymap = {
-            preset = 'super-tab'
-        }
+      keymap = {
+        preset = "super-tab",
+      },
     })
   end,
 }
